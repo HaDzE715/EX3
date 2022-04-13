@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header, main, footer, nav, aside, section, div {
+    display:block;
+}
+#frame-layout{
+    width: 1000px;
+    height: 1000px;
+    margin: 0px auto;
+}
+.Main-div{
+    width: 1000px;
+    height: 1000px;
+    margin: 0px auto;
+    display: flex;
+}
+.Head-Div{
+    width: 1000px;
+    height: 388px;
+    background-color: #517A8D;
+    display: flex;
+}
+.Head-Div img{
+    margin-left: 26px;
+    margin-top: 20px;
+    width: 110px;
+    height: 110px;
+}
+.Nav-Div ul{
+    list-style-type: none;
+    margin-top: 331px;
+    margin-left: 272px;
+    width: 592px;
+    height: 57px;
+    list-style-type: none;
+    background-color: #FFCDD2;
+    float: right;
+}
+.Nav-Div ul li{
+    float: left;
+    width: 197px;
+    text-align: center;
+    font-size: 20px;
+    color: #000;
+    height: 57px;
+}
+.Nav-Div a{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Mulish';
+    padding-top: 15px;
+    height: 42px;
+    width: 197px;
+    text-align: center;
+    display: inline-table;
+}
+.Nav-Div ul li a:hover{
+    background-color: #B94A48;
+    color: #fff;
+    font-family: 'Mulish';
+}
+/* ----------- Black Main -----------*/
+.Layout1-Black{
+    height: 481px;
+    display: flex;
+    background-color: #212121;
+}
+.Rectangle1{
+    margin-top: 24px;
+    margin-left: 27px;
+    width: 93px;
+    height: 35px;
+    background-color: #517A8D;
+}
+.Rectangle2{
+    margin-top: 29px;
+    margin-left: 151px;
+    width: 333px;
+    height: 388px;
+    background-color: #517A8D;
+}
+.Rectangle3{
+    margin-top: 29px;
+    margin-left: 26px;
+    width: 334px;
+    height: 338px;
+    background-color: #517A8D;
+}
+.first-footer{
+    height: 120px;
+    background-color: #d6d6d6;
+}
+/*---------- Layout2 ----------*/
+#Frame-Layout2{
+    width: 1403px;
+    height: 2000px;
+    margin: 0 auto;
+}
+.Header-Layout2{
+    background-color: #212121;
+    height: 192px;
+}
+.Header-Layout2 img{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 110px;
+    height: 110px;
+}
+/*--------- Pink Navigation -----*/
+.Left-List{
+    display: block;
+    background-color: #FFCDD2;
+    width: 243px;
+    height: 1700px;
+    float: left;
+    overflow: hidden;
+}
+.Left-List nav ul li a{
+    list-style-type: none;
+    line-height: 130px;
+    display: list-item;
+    height: 133px;
+    font-size: 30px;
+    text-decoration: none;
+    color:#000;
+    font-family: 'Mulish';
+}
+.selected , .Left-List a:hover{
+    background-color: #B94A48;
+    color: #FFF;
+}
+.Black-Box{
+    width: 818px;
+    height: 1700px; 
+    background-color: #212121;
+    display: flex;
+    float: left;
+}
+/*------ Five Rectangles ---------*/
+#Main-Rectangles{
+    background-color: #517A8D;
+    width: 337px;
+    height: 338px;
+    margin-left: 30px;
+}
+#Main-Rectangles2{
+    background-color: #517A8D;
+    width: 337px;
+    height: 338px;
+}
+.Rect-Pos-Left{
+    position: absolute;
+    margin-top: 459px;
+    margin-left: 30px;
+}
+.Rect-Pos-Left2{
+    position: absolute;
+    margin-top: 844px;
+    margin-left: 30px;
+}
+.Rect-Pos-Right{
+    position: absolute;
+    margin-top: 677px;
+    margin-left: 400px;
+}
+/*------- Right Side Menu --------*/
+.Right-Menu{
+    width: 341.5px;
+    height: 1700px;
+    float: right;
+    position: absolute;
+    background-color: #FFCDD2;
+    margin-left: 1061px;
+    display: flex;
+}
+.Grey-Rec{
+    margin-left: 170px;
+    background-color: #C0D0E5;
+    margin-top: 65px;
+    width: 129px;
+    height: 339px;
+    position: absolute;
+}
+.Grey-Rec2{
+    margin-left: 106px;
+    background-color: #C0D0E5;
+    margin-top: 1531px;
+    width: 127px;
+    height: 124px;
+}
+/*------ Footer -----------*/
+.Second-footer{
+    position: absolute;
+    background-color: #d6d6d6;
+    height: 117px;
+    width: 1403px;
+    margin-top: 1700px;
+}
+/*----------Wrapper-Layout3--*/
+.wrapper{
+    margin: 0px auto;
+    width: 1000px;
+}
+.Layout3-header
+{
+    height: 443px;
+    background-color: #000;
+    width: 498px;
+}
+.Layout3-header img{
+    margin-top: 39px;
+    margin-left: 37px;
+}
+.Layout3-header nav ul
+{
+    list-style-type: none;
+    margin-top: 133px;
+    width: 498px;
+    height: 58px;
+    list-style-type: none;
+    background-color: #FFCDD2;
+    float: left;
+}
+.Layout3-header nav ul li{
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    color: #000;
+    height: 57px;
+    width: 166px;
+}
+.Layout3-header nav a{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Mulish';
+    padding-top: 13.5px;
+    height: 44px;
+    width: 166px;
+    text-align: center;
+    display: inline-table;
+}
+.Layout3-header nav ul li a:hover{
+    background-color: #B94A48;
+    color: #fff;
+    font-family: 'Mulish';
+}
+#plus{
+    color: #FFF;
+    font-size: 150px;
+    margin-left: 210px;
+    margin-top: 30px;
+}
+#plus:hover{
+    color: rgb(39, 102, 55);
+}
+.Main-Rect{
+    width: 249px;
+    height: 250px;
+}
+.Rectan1{
+    background-color: #000;
+    margin-left: 498px;
+    margin-top: -443px;
+    opacity: 0.75;
+}
+.Rectan2{
+    background-color: #000;
+    margin-left: 498px;
+    opacity: 0.25;
+}
+.Rectan3{
+    background-color: #000;
+    margin-left: 747px;
+    margin-top: -501px;
+    height: 251px;
+    opacity: 0.5;
+}
+.Rectan4{
+    background-color: #000;
+    margin-left: 747px;
+    opacity: 0;
+}
+/*---------Main Rectangles Design-------*/
+.shora{
+    height: 250px;
+    width: 100%;
+}
+.square{
+    height: 100%;
+    display: inline-block;
+    width: 25%;
+}
+main .rec:not(:first-child){
+    margin-left: -5px;
+}
+/*----------Layer3 Footer-------------*/
+footer{
+    position: absolute;
+    background-color: #d6d6d6;
+    width: 1000px;
+    height: 120px;
+}
